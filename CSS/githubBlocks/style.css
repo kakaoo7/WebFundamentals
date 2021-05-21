@@ -1,0 +1,31 @@
+img {
+    height: 200px;
+}
+
+#block1 {
+    display: flex;
+    background-color: #E9F7F9;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+#block2 {
+    display: flex;
+    background-color: #0859a5;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#block3 {
+    background-color: #8E4C9E;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 500px;
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+}

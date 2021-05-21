@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 10px;
+}
+
+input, label, textarea, select option, p{
+    margin: 5px;
+}
