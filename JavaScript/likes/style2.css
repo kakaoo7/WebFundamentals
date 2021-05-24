@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 400px;
+}
+
+button {
+    background-color: #ffd966;
+    border: 2px solid black;
+    box-shadow: 4px 3px 1px;
+    padding: 3px 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: black;
+    padding: 5px 0;
+    padding-left: 2rem;
+}
+
+nav > h1 {
+    font-size: 3rem;
+    display: block;
+    color: white;
+}
+
+main > h1 {
+    font-size: 3rem;
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.userCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid black;
+    padding: 1rem 2rem;
+    height: 70%;
+}
+
+.userCard > img {
+    width: 150px;
+    height: auto;
+}
+
+.userCard > a {
+    font-size: 20px;
+}
+
+.userCard > h3 {
+    font-size: 24px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+}
+
+.postCard {
+    display: inline-block;
+    border: 3px solid black;
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user > * {
+    margin-left: 2rem;
+    font-size: 24px;
+}
+
+.user > h3 {
+    flex: 1;
+    margin-left: 0;
+    font-size: 2rem;
+}
